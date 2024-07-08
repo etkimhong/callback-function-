@@ -1,5 +1,5 @@
 const fs = require('fs');
-const filePath = './ex4.txt';
+const filePath = './ex3.txt';
 
 let read = (filePath, callback)=>{
     fs.readFile(filePath, 'utf-8', (err,data)=>{
